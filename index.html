@@ -5,21 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Zoom</title>
 </head>
 <body>
     
     <header>
         <div class="view">
-            <div class="button1"></div>
-            <div class="button2"></div>
+            <div class="button1">
+                <i class="fas fa-expand-arrows-alt"> Speaker View</i> 
+            </div>
+            <div class="button2">
+                <i class="fas fa-expand-arrows-alt"></i>
+            </div>
         </div>
     </header>
     
     <main>
         <div class="video_zone">
-            <div class="colonna_sx"></div>
+            <div class="colonna_sx">
+                <div class="micro"><i class="fas fa-caret-left"></i>
+                    <div class="mute">1/2</div>
+                </div>
+            </div>
+            
+            
             <div class="colonna_center">
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
                 <div class="pic"></div>
                 <div class="pic"></div>
                 <div class="pic"></div>
@@ -27,15 +53,61 @@
                 <div class="pic"></div>
                 
             </div>
-            <div class="colonna_dx"></div>
+            <div class="colonna_dx">
+                <div class="micro"><i class="fas fa-caret-right"></i>
+                    <div class="mute">1/2</div>
+                </div>
+            </div>
         </div>
     </main>
     
     <footer>
         <div class="nav">
-            <div class="sx"></div>
-            <div class="center"></div>
-            <div class="dx"></div>
+            <div class="sx">
+                <div class="micro"><i class="fas fa-microphone"></i>
+                    <div class="mute">Mute</div>
+                </div>
+            
+                <div class="video"><i class="fas fa-video"></i>
+                    <div class="stop">Stop Video</div>
+                </div>
+                
+            </div>
+        
+            <div class="center">
+                <div class="micro"><i class="fas fa-user-plus"></i>
+                    <div class="mute">Invite</div>
+                </div>
+            
+                <div class="video"><i class="fas fa-video"></i>
+                    <div class="stop">Stop Video</div>
+                </div>
+                <div class="micro"><i class="fas fa-poll"></i>
+                    <div class="mute">Pooling</div>
+                </div>
+            
+                <div id="color" class="video"><i class="fas fa-desktop"></i>
+                    <div class="stop">Share Screen</div>
+                </div>
+                <div class="micro"><i class="far fa-comment-dots"></i>
+                    <div class="mute">Chat</div>
+                </div>
+            
+                <div class="video"><i class="fas fa-compact-disc"></i>
+                    <div class="stop">Recording</div>
+                </div>
+
+                <div class="micro"><i class="far fa-comment-dots"></i>
+                    <div class="mute">Chat</div>
+                </div>
+            
+                <div class="video"><i class="fas fa-compact-disc"></i>
+                    <div class="stop">Recording</div>
+                </div>
+            </div>
+            <div class="dx">
+                <div class="meeting">End Meeting</div>
+            </div>
         </div>
     </footer>
     

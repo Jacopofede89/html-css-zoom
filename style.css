@@ -17,20 +17,34 @@
     /* debug */
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 
 }
 
 .button1{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 30px;
     background-color: white;
+    border: solid 1px red;
+    /* debug */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .button2{
-    width: 50px;
-    height: 50px;
+    margin: 5px ;
+    width: 30px;
+    height: 30px;
     background-color: white;
+    border: solid 1px red;
+    /* debug */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* parte centrale */
 
@@ -46,22 +60,30 @@
     width: 5%;
     height: 100%;
     background-color: cornflowerblue;
+    /* debug */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .colonna_center{
-    /* width: 100%; */
-    width:calc(90%/5);
+    width: 100%;
     height: 100%;
     background-color: crimson;
     /* debug */
     display: flex;
-
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .pic{
     border: solid 2px yellow;
     background-color: darkmagenta;
-    height: 100px; 
+    /* debug */
+    margin: 2px;
+    height: 145px; 
+    width: 19%;
 
 }
 
@@ -69,6 +91,9 @@
     width: 5%;
     height: 100%;
     background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -88,16 +113,52 @@
     width: 200px;
     height: 50px;
     background-color: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
+.micro{
+    display: inline-block;
+    font-size: 35px;
+}
+.mute{
+    font-size: 20px;
+}
+
+.video{
+    display: inline-block;
+    font-size: 35px;
+}
+
+.stop{
+    color: white;
+    font-size: 20px;
+}
+
+
 .center{
-    width: 200px;
+    width: 750px;
     height: 50px;
     background-color: chartreuse;
+    /* debug */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#color{
+    color: #4bc800;
 }
 
 .dx{
-    width: 200px;
+    width: 100px;
     height: 50px;
-    background-color: chartreuse;
+    background-color: rgba(74,75,76,255);
+    color: red;
+    text-align: center;
+}
+
+.meeting{
+    margin-top: 15px;
 }
