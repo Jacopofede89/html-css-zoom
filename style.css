@@ -35,7 +35,7 @@
 /* parte centrale */
 
 .video_zone{
-    width:calc(100% : 3);
+    /* width:calc(100% : 3); */
     height: 600px;
     background-color: red;
     /* debug */
@@ -49,9 +49,19 @@
 }
 
 .colonna_center{
-    width: 90%;
+    /* width: 100%; */
+    width:calc(90%/5);
     height: 100%;
     background-color: crimson;
+    /* debug */
+    display: flex;
+
+}
+
+.pic{
+    border: solid 2px yellow;
+    background-color: darkmagenta;
+    height: 100px; 
 
 }
 
